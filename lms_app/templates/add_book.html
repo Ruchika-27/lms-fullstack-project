@@ -1,0 +1,13 @@
+
+
+<h2>Add Book</h2>
+
+<form method="post">
+{% csrf_token %}
+
+<input name="title" placeholder="Title"><br><br>
+<input name="author" placeholder="Author"><br><br>
+<input name="quantity" placeholder="Quantity"><br><br>
+
+<button>Add Book</button>
+</form>
